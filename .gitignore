@@ -32,3 +32,5 @@ CMakeSettings.json
 # Local user config
 .envrc
 .direnv
+
+_skbuild/
