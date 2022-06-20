@@ -15,6 +15,7 @@ setup(
     packages=['surelog'],
 
     cmake_install_dir='pysrc/surelog/data',
+    cmake_args=['-DSURELOG_WITH_PYTHON=1'],
 
     entry_points={
         'console_scripts': [
